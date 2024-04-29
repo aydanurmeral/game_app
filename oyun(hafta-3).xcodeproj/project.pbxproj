@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70192E102BDAFF6700A7152E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70192E0F2BDAFF6700A7152E /* AppDelegate.swift */; };
+		70192E122BDAFF6700A7152E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70192E112BDAFF6700A7152E /* SceneDelegate.swift */; };
+		70192E142BDAFF6700A7152E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70192E132BDAFF6700A7152E /* ViewController.swift */; };
+		70192E172BDAFF6700A7152E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70192E152BDAFF6700A7152E /* Main.storyboard */; };
+		70192E192BDAFF6800A7152E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70192E182BDAFF6800A7152E /* Assets.xcassets */; };
+		70192E1C2BDAFF6800A7152E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70192E1A2BDAFF6800A7152E /* LaunchScreen.storyboard */; };
+		70192E272BDAFF6800A7152E /* oyun_hafta_3_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70192E262BDAFF6800A7152E /* oyun_hafta_3_Tests.swift */; };
+		70192E312BDAFF6800A7152E /* oyun_hafta_3_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70192E302BDAFF6800A7152E /* oyun_hafta_3_UITests.swift */; };
+		70192E332BDAFF6800A7152E /* oyun_hafta_3_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70192E322BDAFF6800A7152E /* oyun_hafta_3_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70192E232BDAFF6800A7152E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70192E042BDAFF6700A7152E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70192E0B2BDAFF6700A7152E;
+			remoteInfo = "oyun(hafta-3)";
+		};
+		70192E2D2BDAFF6800A7152E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70192E042BDAFF6700A7152E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70192E0B2BDAFF6700A7152E;
+			remoteInfo = "oyun(hafta-3)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70192E0C2BDAFF6700A7152E /* oyun(hafta-3).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oyun(hafta-3).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70192E0F2BDAFF6700A7152E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70192E112BDAFF6700A7152E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		70192E132BDAFF6700A7152E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70192E162BDAFF6700A7152E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70192E182BDAFF6800A7152E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70192E1B2BDAFF6800A7152E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70192E1D2BDAFF6800A7152E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70192E222BDAFF6800A7152E /* oyun(hafta-3)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oyun(hafta-3)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70192E262BDAFF6800A7152E /* oyun_hafta_3_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oyun_hafta_3_Tests.swift; sourceTree = "<group>"; };
+		70192E2C2BDAFF6800A7152E /* oyun(hafta-3)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oyun(hafta-3)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70192E302BDAFF6800A7152E /* oyun_hafta_3_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oyun_hafta_3_UITests.swift; sourceTree = "<group>"; };
+		70192E322BDAFF6800A7152E /* oyun_hafta_3_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oyun_hafta_3_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70192E092BDAFF6700A7152E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70192E1F2BDAFF6800A7152E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70192E292BDAFF6800A7152E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70192E032BDAFF6700A7152E = {
+			isa = PBXGroup;
+			children = (
+				70192E0E2BDAFF6700A7152E /* oyun(hafta-3) */,
+				70192E252BDAFF6800A7152E /* oyun(hafta-3)Tests */,
+				70192E2F2BDAFF6800A7152E /* oyun(hafta-3)UITests */,
+				70192E0D2BDAFF6700A7152E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70192E0D2BDAFF6700A7152E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70192E0C2BDAFF6700A7152E /* oyun(hafta-3).app */,
+				70192E222BDAFF6800A7152E /* oyun(hafta-3)Tests.xctest */,
+				70192E2C2BDAFF6800A7152E /* oyun(hafta-3)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70192E0E2BDAFF6700A7152E /* oyun(hafta-3) */ = {
+			isa = PBXGroup;
+			children = (
+				70192E0F2BDAFF6700A7152E /* AppDelegate.swift */,
+				70192E112BDAFF6700A7152E /* SceneDelegate.swift */,
+				70192E132BDAFF6700A7152E /* ViewController.swift */,
+				70192E152BDAFF6700A7152E /* Main.storyboard */,
+				70192E182BDAFF6800A7152E /* Assets.xcassets */,
+				70192E1A2BDAFF6800A7152E /* LaunchScreen.storyboard */,
+				70192E1D2BDAFF6800A7152E /* Info.plist */,
+			);
+			path = "oyun(hafta-3)";
+			sourceTree = "<group>";
+		};
+		70192E252BDAFF6800A7152E /* oyun(hafta-3)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				70192E262BDAFF6800A7152E /* oyun_hafta_3_Tests.swift */,
+			);
+			path = "oyun(hafta-3)Tests";
+			sourceTree = "<group>";
+		};
+		70192E2F2BDAFF6800A7152E /* oyun(hafta-3)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				70192E302BDAFF6800A7152E /* oyun_hafta_3_UITests.swift */,
+				70192E322BDAFF6800A7152E /* oyun_hafta_3_UITestsLaunchTests.swift */,
+			);
+			path = "oyun(hafta-3)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70192E0B2BDAFF6700A7152E /* oyun(hafta-3) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70192E362BDAFF6800A7152E /* Build configuration list for PBXNativeTarget "oyun(hafta-3)" */;
+			buildPhases = (
+				70192E082BDAFF6700A7152E /* Sources */,
+				70192E092BDAFF6700A7152E /* Frameworks */,
+				70192E0A2BDAFF6700A7152E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oyun(hafta-3)";
+			productName = "oyun(hafta-3)";
+			productReference = 70192E0C2BDAFF6700A7152E /* oyun(hafta-3).app */;
+			productType = "com.apple.product-type.application";
+		};
+		70192E212BDAFF6800A7152E /* oyun(hafta-3)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70192E392BDAFF6800A7152E /* Build configuration list for PBXNativeTarget "oyun(hafta-3)Tests" */;
+			buildPhases = (
+				70192E1E2BDAFF6800A7152E /* Sources */,
+				70192E1F2BDAFF6800A7152E /* Frameworks */,
+				70192E202BDAFF6800A7152E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70192E242BDAFF6800A7152E /* PBXTargetDependency */,
+			);
+			name = "oyun(hafta-3)Tests";
+			productName = "oyun(hafta-3)Tests";
+			productReference = 70192E222BDAFF6800A7152E /* oyun(hafta-3)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70192E2B2BDAFF6800A7152E /* oyun(hafta-3)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70192E3C2BDAFF6800A7152E /* Build configuration list for PBXNativeTarget "oyun(hafta-3)UITests" */;
+			buildPhases = (
+				70192E282BDAFF6800A7152E /* Sources */,
+				70192E292BDAFF6800A7152E /* Frameworks */,
+				70192E2A2BDAFF6800A7152E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70192E2E2BDAFF6800A7152E /* PBXTargetDependency */,
+			);
+			name = "oyun(hafta-3)UITests";
+			productName = "oyun(hafta-3)UITests";
+			productReference = 70192E2C2BDAFF6800A7152E /* oyun(hafta-3)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70192E042BDAFF6700A7152E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					70192E0B2BDAFF6700A7152E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					70192E212BDAFF6800A7152E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 70192E0B2BDAFF6700A7152E;
+					};
+					70192E2B2BDAFF6800A7152E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 70192E0B2BDAFF6700A7152E;
+					};
+				};
+			};
+			buildConfigurationList = 70192E072BDAFF6700A7152E /* Build configuration list for PBXProject "oyun(hafta-3)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70192E032BDAFF6700A7152E;
+			productRefGroup = 70192E0D2BDAFF6700A7152E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70192E0B2BDAFF6700A7152E /* oyun(hafta-3) */,
+				70192E212BDAFF6800A7152E /* oyun(hafta-3)Tests */,
+				70192E2B2BDAFF6800A7152E /* oyun(hafta-3)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70192E0A2BDAFF6700A7152E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70192E1C2BDAFF6800A7152E /* LaunchScreen.storyboard in Resources */,
+				70192E192BDAFF6800A7152E /* Assets.xcassets in Resources */,
+				70192E172BDAFF6700A7152E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70192E202BDAFF6800A7152E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70192E2A2BDAFF6800A7152E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70192E082BDAFF6700A7152E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70192E142BDAFF6700A7152E /* ViewController.swift in Sources */,
+				70192E102BDAFF6700A7152E /* AppDelegate.swift in Sources */,
+				70192E122BDAFF6700A7152E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70192E1E2BDAFF6800A7152E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70192E272BDAFF6800A7152E /* oyun_hafta_3_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70192E282BDAFF6800A7152E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70192E332BDAFF6800A7152E /* oyun_hafta_3_UITestsLaunchTests.swift in Sources */,
+				70192E312BDAFF6800A7152E /* oyun_hafta_3_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70192E242BDAFF6800A7152E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70192E0B2BDAFF6700A7152E /* oyun(hafta-3) */;
+			targetProxy = 70192E232BDAFF6800A7152E /* PBXContainerItemProxy */;
+		};
+		70192E2E2BDAFF6800A7152E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70192E0B2BDAFF6700A7152E /* oyun(hafta-3) */;
+			targetProxy = 70192E2D2BDAFF6800A7152E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70192E152BDAFF6700A7152E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70192E162BDAFF6700A7152E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70192E1A2BDAFF6800A7152E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70192E1B2BDAFF6800A7152E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70192E342BDAFF6800A7152E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70192E352BDAFF6800A7152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70192E372BDAFF6800A7152E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWGXP6HQ75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "oyun(hafta-3)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ayda1234.oyun-hafta-3-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70192E382BDAFF6800A7152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWGXP6HQ75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "oyun(hafta-3)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ayda1234.oyun-hafta-3-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70192E3A2BDAFF6800A7152E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWGXP6HQ75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ayda1234.oyun-hafta-3-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oyun(hafta-3).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/oyun(hafta-3)";
+			};
+			name = Debug;
+		};
+		70192E3B2BDAFF6800A7152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWGXP6HQ75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ayda1234.oyun-hafta-3-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oyun(hafta-3).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/oyun(hafta-3)";
+			};
+			name = Release;
+		};
+		70192E3D2BDAFF6800A7152E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWGXP6HQ75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ayda1234.oyun-hafta-3-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "oyun(hafta-3)";
+			};
+			name = Debug;
+		};
+		70192E3E2BDAFF6800A7152E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWGXP6HQ75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ayda1234.oyun-hafta-3-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "oyun(hafta-3)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70192E072BDAFF6700A7152E /* Build configuration list for PBXProject "oyun(hafta-3)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70192E342BDAFF6800A7152E /* Debug */,
+				70192E352BDAFF6800A7152E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70192E362BDAFF6800A7152E /* Build configuration list for PBXNativeTarget "oyun(hafta-3)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70192E372BDAFF6800A7152E /* Debug */,
+				70192E382BDAFF6800A7152E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70192E392BDAFF6800A7152E /* Build configuration list for PBXNativeTarget "oyun(hafta-3)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70192E3A2BDAFF6800A7152E /* Debug */,
+				70192E3B2BDAFF6800A7152E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70192E3C2BDAFF6800A7152E /* Build configuration list for PBXNativeTarget "oyun(hafta-3)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70192E3D2BDAFF6800A7152E /* Debug */,
+				70192E3E2BDAFF6800A7152E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70192E042BDAFF6700A7152E /* Project object */;
+}
