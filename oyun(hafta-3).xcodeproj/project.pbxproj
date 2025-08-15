@@ -13,9 +13,6 @@
 		70192E172BDAFF6700A7152E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70192E152BDAFF6700A7152E /* Main.storyboard */; };
 		70192E192BDAFF6800A7152E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70192E182BDAFF6800A7152E /* Assets.xcassets */; };
 		70192E1C2BDAFF6800A7152E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70192E1A2BDAFF6800A7152E /* LaunchScreen.storyboard */; };
-		70192E272BDAFF6800A7152E /* oyun_hafta_3_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70192E262BDAFF6800A7152E /* oyun_hafta_3_Tests.swift */; };
-		70192E312BDAFF6800A7152E /* oyun_hafta_3_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70192E302BDAFF6800A7152E /* oyun_hafta_3_UITests.swift */; };
-		70192E332BDAFF6800A7152E /* oyun_hafta_3_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70192E322BDAFF6800A7152E /* oyun_hafta_3_UITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		70192E1B2BDAFF6800A7152E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70192E1D2BDAFF6800A7152E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70192E222BDAFF6800A7152E /* oyun(hafta-3)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oyun(hafta-3)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70192E262BDAFF6800A7152E /* oyun_hafta_3_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oyun_hafta_3_Tests.swift; sourceTree = "<group>"; };
 		70192E2C2BDAFF6800A7152E /* oyun(hafta-3)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oyun(hafta-3)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70192E302BDAFF6800A7152E /* oyun_hafta_3_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oyun_hafta_3_UITests.swift; sourceTree = "<group>"; };
-		70192E322BDAFF6800A7152E /* oyun_hafta_3_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oyun_hafta_3_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				70192E0E2BDAFF6700A7152E /* oyun(hafta-3) */,
-				70192E252BDAFF6800A7152E /* oyun(hafta-3)Tests */,
-				70192E2F2BDAFF6800A7152E /* oyun(hafta-3)UITests */,
 				70192E0D2BDAFF6700A7152E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				70192E1D2BDAFF6800A7152E /* Info.plist */,
 			);
 			path = "oyun(hafta-3)";
-			sourceTree = "<group>";
-		};
-		70192E252BDAFF6800A7152E /* oyun(hafta-3)Tests */ = {
-			isa = PBXGroup;
-			children = (
-				70192E262BDAFF6800A7152E /* oyun_hafta_3_Tests.swift */,
-			);
-			path = "oyun(hafta-3)Tests";
-			sourceTree = "<group>";
-		};
-		70192E2F2BDAFF6800A7152E /* oyun(hafta-3)UITests */ = {
-			isa = PBXGroup;
-			children = (
-				70192E302BDAFF6800A7152E /* oyun_hafta_3_UITests.swift */,
-				70192E322BDAFF6800A7152E /* oyun_hafta_3_UITestsLaunchTests.swift */,
-			);
-			path = "oyun(hafta-3)UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70192E272BDAFF6800A7152E /* oyun_hafta_3_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70192E332BDAFF6800A7152E /* oyun_hafta_3_UITestsLaunchTests.swift in Sources */,
-				70192E312BDAFF6800A7152E /* oyun_hafta_3_UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,7 +466,6 @@
 		70192E3A2BDAFF6800A7152E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,7 +485,6 @@
 		70192E3B2BDAFF6800A7152E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -534,7 +504,6 @@
 		70192E3D2BDAFF6800A7152E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LWGXP6HQ75;
@@ -552,7 +521,6 @@
 		70192E3E2BDAFF6800A7152E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LWGXP6HQ75;
